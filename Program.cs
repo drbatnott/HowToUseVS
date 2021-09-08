@@ -6,7 +6,10 @@ namespace HowToUseVS
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string name;
+            Console.Write("Please enter your name: ");
+            name = Console.ReadLine();
+            Console.WriteLine("Hello " + name);
         }
     }
 }
